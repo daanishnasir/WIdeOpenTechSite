@@ -7,13 +7,15 @@
 }
 
 
-
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
 
 
 .jumbotron{
   background: url(http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg);
   background-size: cover;
-  background-position: center;
+  /*background-position: center;*/
   width: 100%;
   height: 700px;
 }
@@ -36,16 +38,27 @@
   font-weight: 400;
 }
 
-
+.learnMore{
+  color:white;
+  background-color: #bdd436 !important;
+  border: 2px solid #bdd436 !important;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 11px 36px !important;
+  border-radius: 25px;
+  margin-top: 25px;
+}
 
 .digital{
   border: 2px solid red;
+  letter-spacing: .7px;
 
 }
 
-h1.workshop{
+p.workshop{
   border: 2px solid red;
   margin-top: 0;
   line-height: 1;
   font-size: 7vw;
+  letter-spacing: 1px;
 }
