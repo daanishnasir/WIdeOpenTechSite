@@ -132,7 +132,7 @@ p.workshop{
     font-family: 'Oswald';
     color: #3B737A;
     border: 2px solid red;
-    margin: 5px 0 70px;
+    /*margin: 5px 0 70px;*/
     background-color: #F2F2F2;
     margin-top: 0;
   }
@@ -141,57 +141,51 @@ p.workshop{
     color:#B8E233;
   }
 
-  .container_flex5{
-    width: 80%;
-    border: 1px solid red;
-    margin: auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+.skills{
+  width: 100%;
+  height: 646px;
+  background-color: #F2F2F2;
+  border:1px solid red;
+  margin-top: 0;
+  display: flex;
 
-  }
+}
 
-  .Col_flex5{
-    flex: 2;
-    border: 1px solid red;
-    display: flex;
-    margin: 0 auto;
+.flexContainer{
+  width: 80%;
+  /*height: 500px;*/
+  border: 1px solid red;
+  margin: auto;
+  margin-top: 4%;
+  display: flex;
+  /*flex-direction: column;*/
+  /*flex-wrap: wrap;*/
+
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.child{
+  border: 1px solid red;
+  width: 80%;
+  height: 30%;
+  background-color: white;
+  margin-bottom: 10px;
+  margin-right: 10px;
+
+  font-family: 'Open-Sans';
+  font-size: ;
+  color: #40666d;
+
+}
+
+@media (max-width:986px) {
+  .flexContainer {
     flex-direction: column;
-    min-width: 200px;
-
-     /*make it fall under each other */
   }
-
-  .second-a{
-    background-color: pink;
-
-
-    flex: 1
+  .child {
+    width: 100%;
 
   }
-
-  .second-b{
-    background-color: green;
-    flex: 1;
-
-  }
-
-  .second-c{
-    background-color: cyan;
-    flex: 1;
-  }
-
-  .col_FlexSecond{
-    display: flex;
-    flex-direction: column;
-  }
-
-  .other-a{
-    flex: 1;
-    background-color: pink;
-  }
-
-  .other-b{
-    flex: 1;
-    background-color: green;
-  }
+}
